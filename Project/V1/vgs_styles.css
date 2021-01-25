@@ -1,0 +1,65 @@
+@charset "utf-8";
+/*
+	Version 1 
+	CIS 155 19056
+	Lake Tahuyeh Virtual Garage Sale
+	Author:	Chad Skillman
+	Date:	January 23, 2021
+	vgs_styles.css
+*/
+
+body > header > img {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+body > header > h1 {
+	text-align: center;
+	background-color: green;
+	color: white;
+}
+/* Stuctural Styles */
+
+section > h2 {
+	background-color: green;
+	color: white;
+	text-align: center
+}
+
+footer > address {
+	font-style: normal;
+	font-size: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: red;
+	background-color: yellow;
+}
+
+/* Nav list styles */
+
+nav {
+	display: table;
+	width: 100%;
+	background-color: yellow;
+}
+
+nav > ul {
+	display: table-row;
+}
+
+nav > ul > li {
+	display: table-cell;
+	text-align: center;
+}
+
+nav > ul > li > a {
+	display: block;
+}
+
+/*Nav Styles */
+
+nav a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
