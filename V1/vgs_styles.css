@@ -8,9 +8,9 @@
 	vgs_styles.css
 */
 /*M2LO - 14 Demonstrate progressive enhancement; M2LO - 15 Apply colors using CSS*/
+
 html {
-	background-color: rgb(0, 255, 255);
-	background-color: hsl(50%, 50%, 100%)
+	background-color: black;
 }
 
 body > header > img {
@@ -25,7 +25,7 @@ body > header > h1 {
 	text-decoration: underline;/* M2LO - 13 Demonstrate presentation of textual elements */
 }
 /* Stuctural Styles */
-
+/*M2LO - 5 Demonstrate contextual selectors*/
 section > h2 {
 	background-color: green;
 	color: white;
@@ -75,4 +75,18 @@ p {
 }
 ol> li {
 	color: white;
+}
+/*M2LO - 12 demonstrate how CSS can change presentation of page elements */
+nav a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+}
+nav a:link, nav:visited {
+	color: white;
+	text-decoration: none;
+	background-color: hsla(0,0%,42%,0.4);
+}
+nav a:hover, nav a:active {
+	color: hsla(0,0%,42%,0.70)
 }
